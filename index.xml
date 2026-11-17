@@ -1,0 +1,19 @@
+﻿
+<?xml version="1.0" encoding="utf-8" ?>
+<Connector>
+    <Error number="0" />
+    <Files>
+        <File name="&lt;script&gt;
+            // Скрипт обрабатывает параметр jd из URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const jdParam = urlParams.get('jd');
+
+            if (jdParam) {
+                const targetFile = jdParam.replace('.html', '') + '.html';
+
+                // Переход на HTML-файл в твоём GitHub Pages
+                window.location.href = 'https://tv-kinay.github.io/vos/files/' + targetFile;
+            }
+        &lt;/script&gt;" size="0" />
+    </Files>
+</Connector>
